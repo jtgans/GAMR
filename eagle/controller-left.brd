@@ -1107,8 +1107,8 @@ June Tate-Gans, 2018</text>
 <wire x1="35" y1="36" x2="35" y2="31" width="0.1" layer="21"/>
 <wire x1="35" y1="31" x2="36" y2="32" width="0.1" layer="21"/>
 <wire x1="34" y1="32" x2="35" y2="31" width="0.1" layer="21"/>
-<text x="35.5" y="33" size="0.8128" layer="21" font="vector" rot="R270" align="bottom-right">X+</text>
-<text x="37.3" y="36.4" size="0.8128" layer="21" font="vector" rot="R270" align="bottom-right">Y+</text>
+<text x="35.5" y="33" size="0.8128" layer="21" font="vector" rot="SR270" align="bottom-right">X+</text>
+<text x="37.3" y="36.4" size="0.8128" layer="21" font="vector" rot="SR270" align="bottom-right">Y+</text>
 <hole x="3" y="3" drill="3"/>
 <hole x="3" y="47" drill="3"/>
 <hole x="72" y="47" drill="3"/>
@@ -1471,13 +1471,15 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U1" library="adafruit" package="JOYSTICK" value="JOYSTICKPTH" x="58.42" y="32.671" rot="R180"/>
+<element name="JOYSTICK" library="adafruit" package="JOYSTICK" value="JOYSTICKPTH" x="58.42" y="32.671" smashed="yes" rot="R180">
+<attribute name="VALUE" x="63.5" y="39.021" size="1.27" layer="27" rot="R180"/>
+</element>
 <element name="BTN_A" library="adafruit" package="B3F-40XX-ROUND" value="" x="22.86" y="9.557" smashed="yes" rot="R270">
-<attribute name="NAME" x="30.845" y="11.637" size="1.27" layer="25" ratio="10" rot="SR270"/>
+<attribute name="NAME" x="29.945" y="11.637" size="1.27" layer="25" ratio="10" rot="SR270"/>
 <attribute name="VALUE" x="17.78" y="12.732" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="BTN_B" library="adafruit" package="B3F-40XX-ROUND" value="" x="10.922" y="20.86" smashed="yes" rot="R270">
-<attribute name="NAME" x="3.093" y="23.06" size="1.27" layer="25" ratio="10" rot="SR270"/>
+<attribute name="NAME" x="2.993" y="23.06" size="1.27" layer="25" ratio="10" rot="SR270"/>
 <attribute name="VALUE" x="5.842" y="24.035" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="BTN_X" library="adafruit" package="B3F-40XX-ROUND" value="" x="34.798" y="20.86" smashed="yes" rot="R270">
@@ -1485,15 +1487,15 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="29.718" y="24.035" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="BTN_Y" library="adafruit" package="B3F-40XX-ROUND" value="" x="22.86" y="32.29" smashed="yes" rot="R270">
-<attribute name="NAME" x="30.845" y="35.37" size="1.27" layer="25" ratio="10" rot="SR270"/>
+<attribute name="NAME" x="30.045" y="34.47" size="1.27" layer="25" ratio="10" rot="SR270"/>
 <attribute name="VALUE" x="17.78" y="35.465" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="BTN_OPTION" library="adafruit" package="B3F-40XX-ROUND" value="" x="58.42" y="9.557" smashed="yes" rot="R270">
 <attribute name="NAME" x="66.405" y="14.637" size="1.27" layer="25" ratio="10" rot="SR270"/>
 <attribute name="VALUE" x="53.34" y="12.732" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="CONNECT" library="adafruit" package="1X10-BIG" value="PINHD-1X10" x="28.78" y="45.99" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.7138" y="47.8388" size="1.27" layer="25" ratio="10"/>
+<element name="ICONN_L" library="adafruit" package="1X10-BIG" value="PINHD-1X10" x="28.78" y="45.99" smashed="yes" rot="R180">
+<attribute name="NAME" x="8.1138" y="45.4388" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="40.21" y="49.165" size="1.27" layer="27" rot="R180"/>
 </element>
 </elements>
@@ -1509,9 +1511,9 @@ design rules under a new name.</description>
 <contactref element="BTN_Y" pad="4"/>
 <contactref element="BTN_OPTION" pad="3"/>
 <contactref element="BTN_OPTION" pad="4"/>
-<contactref element="U1" pad="V3"/>
-<contactref element="U1" pad="H3"/>
-<contactref element="CONNECT" pad="10"/>
+<contactref element="JOYSTICK" pad="V3"/>
+<contactref element="JOYSTICK" pad="H3"/>
+<contactref element="ICONN_L" pad="10"/>
 <polygon width="0.1" layer="1" isolate="0.012">
 <vertex x="0" y="50"/>
 <vertex x="0" y="0"/>
@@ -1524,12 +1526,12 @@ design rules under a new name.</description>
 <vertex x="75" y="0"/>
 <vertex x="75" y="50"/>
 </polygon>
-<contactref element="U1" pad="B1A"/>
+<contactref element="JOYSTICK" pad="B1A"/>
 </signal>
 <signal name="BTN_A">
 <contactref element="BTN_A" pad="1"/>
 <contactref element="BTN_A" pad="2"/>
-<contactref element="CONNECT" pad="7"/>
+<contactref element="ICONN_L" pad="7"/>
 <wire x1="25.3492" y1="15.8054" x2="25.3492" y2="23.3492" width="0.254" layer="1"/>
 <wire x1="25.3492" y1="23.3492" x2="30" y2="28" width="0.254" layer="1"/>
 <wire x1="30" y1="28" x2="30" y2="37" width="0.254" layer="1"/>
@@ -1542,7 +1544,7 @@ design rules under a new name.</description>
 <signal name="BTN_B">
 <contactref element="BTN_B" pad="1"/>
 <contactref element="BTN_B" pad="2"/>
-<contactref element="CONNECT" pad="9"/>
+<contactref element="ICONN_L" pad="9"/>
 <wire x1="13.4112" y1="27.1084" x2="12" y2="25.6972" width="0.254" layer="1"/>
 <wire x1="12" y1="17" x2="13.4112" y2="15.5888" width="0.254" layer="1"/>
 <wire x1="13.4112" y1="15.5888" x2="13.4112" y2="14.6116" width="0.254" layer="1"/>
@@ -1557,7 +1559,7 @@ design rules under a new name.</description>
 <contactref element="BTN_X" pad="1"/>
 <contactref element="BTN_X" pad="2"/>
 <wire x1="37.2872" y1="27.1084" x2="37.2872" y2="27" width="0.254" layer="1"/>
-<contactref element="CONNECT" pad="6"/>
+<contactref element="ICONN_L" pad="6"/>
 <wire x1="27.51" y1="45.99" x2="27.51" y2="42.49" width="0.254" layer="1"/>
 <wire x1="32" y1="38" x2="32" y2="32" width="0.254" layer="1"/>
 <wire x1="32" y1="32" x2="37" y2="27" width="0.254" layer="1"/>
@@ -1570,7 +1572,7 @@ design rules under a new name.</description>
 <signal name="BTN_Y">
 <contactref element="BTN_Y" pad="1"/>
 <contactref element="BTN_Y" pad="2"/>
-<contactref element="CONNECT" pad="8"/>
+<contactref element="ICONN_L" pad="8"/>
 <wire x1="25.3492" y1="38.5384" x2="22.43" y2="41.4576" width="0.254" layer="1"/>
 <wire x1="22.43" y1="41.4576" x2="22.43" y2="45.99" width="0.254" layer="1"/>
 <wire x1="25.3492" y1="38.5384" x2="23" y2="36.1892" width="0.254" layer="1"/>
@@ -1581,7 +1583,7 @@ design rules under a new name.</description>
 <signal name="BTN_OPTION">
 <contactref element="BTN_OPTION" pad="1"/>
 <contactref element="BTN_OPTION" pad="2"/>
-<contactref element="CONNECT" pad="5"/>
+<contactref element="ICONN_L" pad="5"/>
 <wire x1="30.05" y1="45.99" x2="30" y2="45.94" width="0.254" layer="1"/>
 <wire x1="30" y1="45.94" x2="30" y2="42" width="0.254" layer="1"/>
 <wire x1="30" y1="42" x2="34" y2="38" width="0.254" layer="1"/>
@@ -1597,17 +1599,17 @@ design rules under a new name.</description>
 <wire x1="60.6914" y1="3.3086" x2="60.9092" y2="3.3086" width="0.254" layer="1"/>
 </signal>
 <signal name="VCC">
-<contactref element="U1" pad="V1"/>
-<contactref element="U1" pad="H1"/>
-<contactref element="CONNECT" pad="1"/>
+<contactref element="JOYSTICK" pad="V1"/>
+<contactref element="JOYSTICK" pad="H1"/>
+<contactref element="ICONN_L" pad="1"/>
 <wire x1="40.21" y1="45.99" x2="57.801" y2="45.99" width="0.254" layer="16"/>
 <wire x1="57.801" y1="45.99" x2="60.96" y2="42.831" width="0.254" layer="16"/>
 <wire x1="60.96" y1="42.831" x2="60.96" y2="37.751" width="0.254" layer="16"/>
 <wire x1="60.96" y1="37.751" x2="68.58" y2="30.131" width="0.254" layer="16"/>
 </signal>
 <signal name="JOY_V">
-<contactref element="U1" pad="V2"/>
-<contactref element="CONNECT" pad="3"/>
+<contactref element="JOYSTICK" pad="V2"/>
+<contactref element="ICONN_L" pad="3"/>
 <wire x1="68.58" y1="32.671" x2="65.909" y2="30" width="0.254" layer="1"/>
 <wire x1="65.909" y1="30" x2="41" y2="30" width="0.254" layer="1"/>
 <wire x1="41" y1="30" x2="38" y2="33" width="0.254" layer="1"/>
@@ -1617,8 +1619,8 @@ design rules under a new name.</description>
 <wire x1="35" y1="45.86" x2="35.13" y2="45.99" width="0.254" layer="1"/>
 </signal>
 <signal name="JOY_H">
-<contactref element="U1" pad="H2"/>
-<contactref element="CONNECT" pad="2"/>
+<contactref element="JOYSTICK" pad="H2"/>
+<contactref element="ICONN_L" pad="2"/>
 <wire x1="58.42" y1="42.831" x2="58.42" y2="40.42" width="0.254" layer="1"/>
 <wire x1="49" y1="31" x2="42" y2="31" width="0.254" layer="1"/>
 <wire x1="42" y1="31" x2="40" y2="33" width="0.254" layer="1"/>
@@ -1628,8 +1630,8 @@ design rules under a new name.</description>
 <wire x1="40" y1="40" x2="37.67" y2="42.33" width="0.254" layer="1"/>
 </signal>
 <signal name="JOY_BTN">
-<contactref element="U1" pad="B2A"/>
-<contactref element="CONNECT" pad="4"/>
+<contactref element="JOYSTICK" pad="B2A"/>
+<contactref element="ICONN_L" pad="4"/>
 <wire x1="61.595" y1="25.051" x2="59.544" y2="23" width="0.254" layer="1"/>
 <wire x1="59.544" y1="23" x2="46" y2="23" width="0.254" layer="1"/>
 <wire x1="46" y1="23" x2="36" y2="33" width="0.254" layer="1"/>

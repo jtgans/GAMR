@@ -548,26 +548,26 @@ With round pins</description>
 </class>
 </classes>
 <parts>
-<part name="U1" library="adafruit" deviceset="JOYSTICK" device="PTH"/>
+<part name="JOYSTICK" library="adafruit" deviceset="JOYSTICK" device="PTH"/>
 <part name="BTN_A" library="adafruit" deviceset="40-XX" device="-ROUND"/>
 <part name="BTN_B" library="adafruit" deviceset="40-XX" device="-ROUND"/>
 <part name="BTN_X" library="adafruit" deviceset="40-XX" device="-ROUND"/>
 <part name="BTN_Y" library="adafruit" deviceset="40-XX" device="-ROUND"/>
 <part name="BTN_OPTION" library="adafruit" deviceset="40-XX" device="-ROUND"/>
-<part name="CONNECT" library="adafruit" deviceset="PINHD-1X10" device=""/>
+<part name="ICONN_L" library="adafruit" deviceset="PINHD-1X10" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U1" gate="G$1" x="81.28" y="86.36"/>
+<instance part="JOYSTICK" gate="G$1" x="81.28" y="86.36"/>
 <instance part="BTN_A" gate="1" x="20.32" y="93.98" rot="R270"/>
 <instance part="BTN_B" gate="1" x="20.32" y="78.74" rot="R270"/>
 <instance part="BTN_X" gate="1" x="20.32" y="63.5" rot="R270"/>
 <instance part="BTN_Y" gate="1" x="20.32" y="48.26" rot="R270"/>
 <instance part="BTN_OPTION" gate="1" x="20.32" y="30.48" rot="R270"/>
-<instance part="CONNECT" gate="G$1" x="81.28" y="45.72"/>
+<instance part="ICONN_L" gate="G$1" x="81.28" y="45.72"/>
 </instances>
 <busses>
 </busses>
@@ -614,9 +614,9 @@ With round pins</description>
 <label x="7.62" y="27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="V-"/>
+<pinref part="JOYSTICK" gate="G$1" pin="V-"/>
 <wire x1="71.12" y1="91.44" x2="68.58" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="H-"/>
+<pinref part="JOYSTICK" gate="G$1" pin="H-"/>
 <wire x1="71.12" y1="81.28" x2="68.58" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="91.44" x2="68.58" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="91.44" x2="53.34" y2="91.44" width="0.1524" layer="91"/>
@@ -624,11 +624,11 @@ With round pins</description>
 <label x="53.34" y="91.44" size="1.778" layer="95"/>
 <wire x1="68.58" y1="81.28" x2="68.58" y2="76.2" width="0.1524" layer="91"/>
 <junction x="68.58" y="81.28"/>
-<pinref part="U1" gate="G$1" pin="SEL+"/>
+<pinref part="JOYSTICK" gate="G$1" pin="SEL+"/>
 <wire x1="68.58" y1="76.2" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="CONNECT" gate="G$1" pin="10"/>
+<pinref part="ICONN_L" gate="G$1" pin="10"/>
 <wire x1="78.74" y1="33.02" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
 <label x="55.88" y="33.02" size="1.778" layer="95"/>
 </segment>
@@ -643,7 +643,7 @@ With round pins</description>
 <label x="27.94" y="91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CONNECT" gate="G$1" pin="7"/>
+<pinref part="ICONN_L" gate="G$1" pin="7"/>
 <wire x1="78.74" y1="40.64" x2="55.88" y2="40.64" width="0.1524" layer="91"/>
 <label x="55.88" y="40.64" size="1.778" layer="95"/>
 </segment>
@@ -658,7 +658,7 @@ With round pins</description>
 <label x="27.94" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CONNECT" gate="G$1" pin="9"/>
+<pinref part="ICONN_L" gate="G$1" pin="9"/>
 <wire x1="78.74" y1="35.56" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
 <label x="55.88" y="35.56" size="1.778" layer="95"/>
 </segment>
@@ -673,7 +673,7 @@ With round pins</description>
 <label x="27.94" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CONNECT" gate="G$1" pin="6"/>
+<pinref part="ICONN_L" gate="G$1" pin="6"/>
 <wire x1="78.74" y1="43.18" x2="55.88" y2="43.18" width="0.1524" layer="91"/>
 <label x="55.88" y="43.18" size="1.778" layer="95"/>
 </segment>
@@ -688,7 +688,7 @@ With round pins</description>
 <label x="27.94" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CONNECT" gate="G$1" pin="8"/>
+<pinref part="ICONN_L" gate="G$1" pin="8"/>
 <wire x1="78.74" y1="38.1" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
 <label x="55.88" y="38.1" size="1.778" layer="95"/>
 </segment>
@@ -703,60 +703,60 @@ With round pins</description>
 <label x="27.94" y="27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CONNECT" gate="G$1" pin="5"/>
+<pinref part="ICONN_L" gate="G$1" pin="5"/>
 <wire x1="78.74" y1="45.72" x2="55.88" y2="45.72" width="0.1524" layer="91"/>
 <label x="55.88" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="V+"/>
+<pinref part="JOYSTICK" gate="G$1" pin="V+"/>
 <wire x1="71.12" y1="96.52" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="96.52" x2="66.04" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="H+"/>
+<pinref part="JOYSTICK" gate="G$1" pin="H+"/>
 <wire x1="71.12" y1="86.36" x2="66.04" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="96.52" x2="53.34" y2="96.52" width="0.1524" layer="91"/>
 <junction x="66.04" y="96.52"/>
 <label x="53.34" y="96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CONNECT" gate="G$1" pin="1"/>
+<pinref part="ICONN_L" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="55.88" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
 <label x="55.88" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="JOY_V" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="V"/>
+<pinref part="JOYSTICK" gate="G$1" pin="V"/>
 <wire x1="71.12" y1="93.98" x2="53.34" y2="93.98" width="0.1524" layer="91"/>
 <label x="53.34" y="93.98" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CONNECT" gate="G$1" pin="3"/>
+<pinref part="ICONN_L" gate="G$1" pin="3"/>
 <wire x1="78.74" y1="50.8" x2="55.88" y2="50.8" width="0.1524" layer="91"/>
 <label x="55.88" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="JOY_H" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="H"/>
+<pinref part="JOYSTICK" gate="G$1" pin="H"/>
 <wire x1="71.12" y1="83.82" x2="53.34" y2="83.82" width="0.1524" layer="91"/>
 <label x="53.34" y="83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CONNECT" gate="G$1" pin="2"/>
+<pinref part="ICONN_L" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="53.34" x2="55.88" y2="53.34" width="0.1524" layer="91"/>
 <label x="55.88" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="JOY_BTN" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="SEL-"/>
+<pinref part="JOYSTICK" gate="G$1" pin="SEL-"/>
 <wire x1="71.12" y1="73.66" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
 <label x="53.34" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CONNECT" gate="G$1" pin="4"/>
+<pinref part="ICONN_L" gate="G$1" pin="4"/>
 <wire x1="78.74" y1="48.26" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
 <label x="55.88" y="48.26" size="1.778" layer="95"/>
 </segment>
@@ -764,6 +764,13 @@ With round pins</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,20.32,96.2254,BTN_A,,,,,"/>
+<approved hash="113,1,20.32,80.9854,BTN_B,,,,,"/>
+<approved hash="113,1,20.32,65.7454,BTN_X,,,,,"/>
+<approved hash="113,1,20.32,50.5054,BTN_Y,,,,,"/>
+<approved hash="113,1,22.7743,32.7254,BTN_OPTION,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
