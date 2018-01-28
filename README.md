@@ -1,6 +1,6 @@
 # The GAMR Project
 
-![GAMR Logo](logo/gamr.svg)
+![GAMR Logo](logos/gamr.svg)
 
 This is an electronics hacking project that involves building a TerasIC DE0-Nano
 FPGA board into a simplistic, fun, and retargetable handheld gaming console.

@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="189.88826mm"
+   height="136.03482mm"
+   viewBox="0 0 189.88826 136.03482"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.2 5c3e80d, 2017-08-06"
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="350.71429"
-     inkscape:cy="688.84487"
+     inkscape:cx="314.65911"
+     inkscape:cy="298.70648"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -37,7 +37,11 @@
      inkscape:window-height="1136"
      inkscape:window-x="0"
      inkscape:window-y="27"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -53,7 +57,8 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-9.5395994,-50.181545)">
     <rect
        id="rect3699"
        width="132.29167"
@@ -180,16 +185,16 @@
     <g
        id="g3883"
        transform="matrix(1.4854369,0,0,1.4854369,-75.66203,24.600847)"
-       style="fill:#ff0000;fill-opacity:1">
+       style="fill:#ffffff;fill-opacity:1">
       <g
          id="g3872"
-         style="fill:#ff0000;fill-opacity:1">
+         style="fill:#ffffff;fill-opacity:1">
         <circle
            id="path3851"
            cx="119.81845"
            cy="34.590031"
            r="9.6383924"
-           style="fill:#ff0000;fill-opacity:1;stroke-width:0.26458332" />
+           style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332" />
         <rect
            id="rect3868"
            width="10.583334"
@@ -197,17 +202,17 @@
            x="109.04613"
            y="24.857143"
            ry="0"
-           style="fill:#ff0000;fill-opacity:1;stroke-width:0.20642513" />
+           style="fill:#ffffff;fill-opacity:1;stroke-width:0.20642513" />
       </g>
       <circle
-         style="fill:#ff0000;fill-opacity:1;stroke-width:0.26458332"
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
          r="2.7403271"
          cy="34.590031"
          cx="132.19717"
          id="path3874" />
       <rect
          ry="0.94494045"
-         style="fill:#ff0000;fill-opacity:1;stroke-width:0.2747851"
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.2747851"
          y="33.645088"
          x="98.084824"
          height="1.8898809"
@@ -216,35 +221,37 @@
     </g>
     <g
        id="g4789"
-       transform="translate(48.64306,91.807396)">
+       transform="translate(48.64306,91.807396)"
+       style="fill:#ffffff;fill-opacity:1">
       <circle
          r="4.0632439"
          cy="16.676939"
          cx="96.96785"
          id="path4690"
-         style="fill:#ff0000;fill-opacity:1;stroke-width:0.26458332" />
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332" />
       <circle
          r="4.0632439"
          cy="32.922546"
          cx="96.96785"
          id="path4690-0"
-         style="fill:#ff0000;fill-opacity:1;stroke-width:0.26458332" />
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332" />
       <circle
          r="4.0632439"
          cy="24.763996"
          cx="105.07956"
          id="path4690-2"
-         style="fill:#ff0000;fill-opacity:1;stroke-width:0.26458332" />
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332" />
       <circle
          r="4.0632439"
          cy="24.763996"
          cx="88.840843"
          id="path4690-61"
-         style="fill:#ff0000;fill-opacity:1;stroke-width:0.26458332" />
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332" />
     </g>
     <g
        id="g4805"
-       transform="translate(-33.141422,91.821163)">
+       transform="translate(-33.141422,91.821163)"
+       style="fill:#ffffff;fill-opacity:1">
       <rect
          ry="0.94494081"
          y="12.625211"
@@ -252,7 +259,7 @@
          height="24.321529"
          width="8.126483"
          id="rect4799"
-         style="fill:#ff0000;fill-opacity:1;stroke-width:0.26458332" />
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332" />
       <rect
          ry="0.94494081"
          y="20.6994"
@@ -260,7 +267,7 @@
          height="8.1264801"
          width="24.455158"
          id="rect4801"
-         style="fill:#ff0000;fill-opacity:1;stroke-width:0.26458332" />
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332" />
     </g>
     <text
        xml:space="preserve"
