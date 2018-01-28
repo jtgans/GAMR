@@ -44,6 +44,11 @@ As of this writing, the following boards are now in production:
 [left-controller]: https://oshpark.com/shared_projects/AXFgIkdE
 [right-controller]: https://oshpark.com/shared_projects/QkbYnFhj
 
+## Why "GAMR"? What's it mean?
+
+I dunno. PiGrrl, GameGrrl, FPGamer... GAMR. Doesn't really mean anything -- I
+needed a name, so I chose that. =o)
+
 ## License
 
 This project is placed under the WTFPL. You can do what the f--- you'd like with
