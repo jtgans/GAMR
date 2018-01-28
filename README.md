@@ -1,5 +1,3 @@
-# The GAMR Project
-
 ![GAMR Logo](logos/gamr.svg)
 
 This is an electronics hacking project that involves building a TerasIC DE0-Nano
