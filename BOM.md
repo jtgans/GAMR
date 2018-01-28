@@ -28,7 +28,9 @@ Note: the TFT driver components and circuit design is based upon Adafruit's
 [40-pin TFT friend][tft-friend]. The audio amplifier is of my own design.
 
 *Digikey BOM TBD*
-
+  * *Want a headphone jack? Not really, ugh, but could be useful...*
+  * *Simple LiPoly Battery Circuit and power distribution?*
+  * *Bog-simple i2c/SPI uC wifi for uploading of sketches? Expansion later?*
   * 2 x [Thin Plastic Speaker w/ Wires - 8ohm 0.25W][audio1]
 
 [tft-friend]: https://github.com/adafruit/Adafruit-40-pin-TFT-Friend
@@ -53,9 +55,15 @@ Quantities listed are *per controller*.
   * Use some form of ribbon cable or jumper cable with 0.1"-style connectors on
     each end. Ideally in something like a 2x6 terminal block one end to make it
     easier to plug into the DE0-Nano. Using [jumper cables like these][jumpers]
-    will work, too.
+    will work, too. Ideally, get some
+    of [these single row housings][by-one-jumper-housings],
+    or [these dual row housings][by-two-jumper-housings], along with some wire
+    and [raw jumper cables][raw-jumper-cables] to make custom jumper blocks.
     
 [jumpers]: https://www.adafruit.com/product/1950
+[by-one-jumper-housings]: https://www.adafruit.com/product/3146
+[by-two-jumper-housings]: https://www.adafruit.com/product/3144
+[raw-jumper-cables]: https://www.adafruit.com/product/3141
 
 ### Circuit Notes
 
